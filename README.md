@@ -1,56 +1,87 @@
 # Sales Performance Dashboard
 
-## Descripción del proyecto
+## 1. Descripción del proyecto
 
-Este proyecto consiste en el análisis de ventas mediante un dashboard interactivo desarrollado en Power BI. El objetivo es identificar tendencias de ventas, analizar pedidos y productos, y comparar el rendimiento por país, categoría y cliente.
+Proyecto de análisis de ventas desarrollado en Power BI para estudiar el rendimiento comercial, identificar tendencias y facilitar la toma de decisiones basadas en datos.
 
-## Herramientas utilizadas
+## 2. Herramientas utilizadas
 
-- **Power BI Desktop** — creación del dashboard y visualización de datos.
-- **Power Query** — limpieza y transformación de datos.
-- **DAX** — creación de medidas y cálculos.
-- **Microsoft Excel / CSV** — archivos de datos de origen.
-- **GitHub** — documentación y publicación del proyecto.
+- **Power BI Desktop:** creación del dashboard interactivo y visualización de datos.
+- **Power Query:** limpieza, transformación y preparación de los datos.
+- **DAX:** creación de medidas e indicadores clave de rendimiento (KPI).
+- **CSV:** archivos de datos utilizados como fuente.
+- **GitHub:** documentación y publicación del proyecto.
 
-## Datos utilizados
+## 3. Datos utilizados
 
-El proyecto utiliza datos de ventas de una base de datos comercial. Los archivos incluyen información sobre:
+El análisis se basa en datos comerciales que incluyen las siguientes tablas:
 
-- **Pedidos:** identificadores, fechas de pedido, envío y entrega, costes de transporte.
-- **Detalles de pedidos:** productos vendidos, cantidades, precios unitarios y descuentos.
-- **Productos:** nombres, precios, categorías y disponibilidad.
-- **Categorías:** nombres y descripciones de las categorías de productos.
+- **Pedidos:** identificadores, fechas de pedido y envío, costes de transporte y datos relacionados con la entrega.
+- **Detalles de pedidos:** productos, cantidades, precios unitarios y descuentos aplicados.
+- **Productos:** nombres, precios, categorías y disponibilidad de los productos.
+- **Categorías:** nombres y descripciones de las categorías.
 - **Clientes:** empresas, ciudades y países.
 - **Empleados:** información sobre los empleados responsables de los pedidos.
 - **Transportistas:** empresas encargadas de los envíos.
+- **Calendario:** fechas y atributos temporales utilizados para analizar la evolución de las ventas.
 
-## Proceso de análisis
+## 4. Página 1 — Sales Performance Dashboard
 
-1. Importación de los archivos CSV en Power BI.
-2. Limpieza y transformación de los datos con Power Query.
-3. Creación del modelo de datos y establecimiento de relaciones entre tablas.
-4. Creación de medidas DAX para calcular los ingresos, el número de pedidos, el valor medio de pedido y las unidades vendidas.
-5. Diseño de un dashboard interactivo con filtros y visualizaciones.
+Esta página ofrece una visión general del rendimiento de las ventas.
 
-## Indicadores principales
+### Indicadores clave (KPI)
 
 - **Total Revenue:** ingresos totales después de aplicar los descuentos.
 - **Total Orders:** número de pedidos únicos.
-- **Average Order Value:** valor medio de un pedido.
+- **Average Order Value:** valor medio por pedido.
 - **Units Sold:** cantidad total de unidades vendidas.
 
-## Visualizaciones
+### Visualizaciones
 
-El dashboard incluye:
+- **Revenue Trend Over Time:** evolución mensual de los ingresos.
+- **Orders Trend Over Time:** evolución mensual del número de pedidos.
+- **Revenue by Category:** comparación de los ingresos entre categorías de productos.
+- **Top 10 Products by Revenue:** identificación de los diez productos con mayores ingresos.
+- **Filtros interactivos:** permiten analizar los datos por fecha, categoría, país y transportista.
 
-- Indicadores KPI.
-- Evolución de los ingresos y de los pedidos a lo largo del tiempo.
-- Ingresos por categoría de producto.
-- Los 10 productos con mayores ingresos.
-- Distribución geográfica de las ventas.
-- Análisis detallado mediante tablas y matrices.
-- Filtros interactivos por fecha, categoría, país y transportista.
+### Objetivo de la página
 
-## Objetivo del proyecto
+Proporcionar una visión rápida del rendimiento comercial, identificar las categorías y los productos más relevantes y observar la evolución de los principales indicadores.
 
-El objetivo es convertir los datos comerciales en información útil para comprender el rendimiento de las ventas, detectar los productos y mercados más importantes y facilitar la toma de decisiones basada en datos.
+**Captura de pantalla:**
+
+*Aquí añadiremos la imagen de la primera página del dashboard.*
+
+## 5. Página 2 — Sales Analysis
+
+Esta página profundiza en el análisis geográfico y en los resultados por cliente y mercado.
+
+### Visualizaciones
+
+- **Sales by Country:** mapa para explorar la distribución geográfica de las ventas.
+- **Revenue by Country:** comparación de los ingresos generados en cada país.
+- **Matriz de ventas por cliente y producto:** permite consultar unidades vendidas, número de pedidos e ingresos, con posibilidad de ampliar el detalle mediante una jerarquía.
+- **Filtros interactivos:** facilitan el análisis de los resultados según los criterios seleccionados.
+
+### Objetivo de la página
+
+Comparar el rendimiento de los distintos mercados, identificar los países con mayor contribución a los ingresos y analizar en detalle el comportamiento de los clientes y productos.
+
+**Captura de pantalla:**
+
+*Aquí añadiremos la imagen de la segunda página del dashboard.*
+
+## 6. Modelado y análisis de datos
+
+Se ha creado un modelo de datos relacional para conectar los pedidos con sus detalles y con las dimensiones de productos, categorías, clientes, empleados, transportistas y calendario.
+
+Se han utilizado medidas DAX para calcular los indicadores principales y permitir que las visualizaciones respondan a los filtros interactivos.
+
+## 7. Objetivos de aprendizaje
+
+- Preparación y transformación de datos.
+- Modelado de datos en Power BI.
+- Creación de medidas DAX.
+- Diseño de dashboards interactivos.
+- Análisis de ventas por tiempo, producto, cliente y país.
+- Comunicación de resultados mediante visualizaciones.
