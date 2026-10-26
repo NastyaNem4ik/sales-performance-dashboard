@@ -27,7 +27,7 @@ El análisis se basa en datos comerciales que incluyen las siguientes tablas:
 
 ## 4. Página 1 — Sales Performance Dashboard
 
-![Sales Performance Dashboard](images/dashboard-overview.png)
+![Sales Performance Dashboard](images/sales-performance-dashboard.png)
 
 Esta página ofrece una visión general del rendimiento de las ventas.
 
