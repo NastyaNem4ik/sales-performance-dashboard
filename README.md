@@ -27,6 +27,8 @@ El análisis se basa en datos comerciales que incluyen las siguientes tablas:
 
 ## 4. Página 1 — Sales Performance Dashboard
 
+![Sales Performance Dashboard](images/dashboard-overview.png)
+
 Esta página ofrece una visión general del rendimiento de las ventas.
 
 ### Indicadores clave (KPI)
@@ -53,6 +55,8 @@ Proporcionar una visión rápida del rendimiento comercial, identificar las cate
 *Aquí añadiremos la imagen de la primera página del dashboard.*
 
 ## 5. Página 2 — Sales Analysis
+
+![Sales Analysis](images/sales-analysis.png)
 
 Esta página profundiza en el análisis geográfico y en los resultados por cliente y mercado.
 
